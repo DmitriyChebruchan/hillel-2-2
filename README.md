@@ -47,3 +47,6 @@ git clone https://github.com/DmitriyChebruchan/hillel-2-2
 pip install -r requirements.txt
 ```
 3. Run the script containing the library management system.
+```
+python run script
+```

@@ -1,4 +1,3 @@
-from typing import List
 from issues_classes import Magazine, BookModel
 from library_classes import BookLibrary, MagazineLibrary
 
