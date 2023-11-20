@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "hillel-1-2"
+version = "0.1.0"
+description = "library in poetry"
+authors = ["DmitriyChebruchan <chebruchan2707@gmail.com>"]
+readme = "README.md"
+packages = [{include = "hillel_1_2"}]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+pydantic = "^2.5.1"
+decorators = "^2.0.7"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
