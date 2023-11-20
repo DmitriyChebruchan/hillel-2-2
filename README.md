@@ -42,11 +42,16 @@ The `Library` class manages a collection of books and magazines. It includes:
 ```
 git clone https://github.com/DmitriyChebruchan/hillel-2-2
 ```
-2. Install the required dependencies from requirements.txt.
+2. Create and activate venv
+```
+python -m venv myenv
+source myenv/bin/activate
+```
+3. Install the required dependencies from requirements.txt.
 ```
 pip install -r requirements.txt
 ```
-3. Run the script containing the library management system.
+4. Run the script containing the library management system.
 ```
-python run script
+python script.py
 ```
